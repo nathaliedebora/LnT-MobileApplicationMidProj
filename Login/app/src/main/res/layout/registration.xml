@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Registration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="300dp"
+        android:text="Register"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/username"
+            android:hint="Username"
+            android:inputType="textVisiblePassword|textNoSuggestions">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:inputType="textEmailAddress|textEmailSubject">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/pass"
+            android:hint="Password"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:id="@+id/compass"
+            android:hint="Confirm Password"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Have an account?">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/lbtn"
+        android:gravity="center"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="120dp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:id="@+id/reg"
+        android:text="Register"
+        android:layout_marginLeft="100dp"
+        android:background="@color/shad">
+
+    </Button>
+
+</RelativeLayout>
